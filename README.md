@@ -1,9 +1,10 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<img src="readmeai/assets/logos/ice.svg" width="30%" align="left" style="margin-right: 15px">
+<img src="./public/ice.png" width="30%" align="left" style="margin-right: 15px">
 
 # CHAT-WITH-THE-DOCS
+
 <em>Unlock Expertise, Amplify Insights</em>
 
 <!-- BADGES -->
@@ -35,12 +36,12 @@
 - [🌞 Overview](#-overview)
 - [🔥 Features](#-features)
 - [🌅 Project Structure](#-project-structure)
-    - [🌄 Project Index](#-project-index)
+  - [🌄 Project Index](#-project-index)
 - [🚀 Getting Started](#-getting-started)
-    - [🌟 Prerequisites](#-prerequisites)
-    - [⚡ Installation](#-installation)
-    - [🔆 Usage](#-usage)
-    - [🌠 Testing](#-testing)
+  - [🌟 Prerequisites](#-prerequisites)
+  - [⚡ Installation](#-installation)
+  - [🔆 Usage](#-usage)
+  - [🌠 Testing](#-testing)
 - [🌻 Roadmap](#-roadmap)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
@@ -60,29 +61,29 @@ This project provides a robust foundation for developers to build, deploy, and m
 
 ## 🔥 Features
 
-| Feature | Component       | Details                              |
-| :----- | :-------------- | :----------------------------------- |
-| **Architecture** | N/A             | <ul><li>Monolithic</li></ul> |
-| **Code Quality** | ESLint, Prettier | <ul><li>ESLint: 8/10</li><li>Prettier: 9/10</li></ul> |
-| **Documentation** | README, API Docs | <ul><li>README: 7/10</li><li>API Docs: 6/10</li></ul> |
-| **Integrations** | Pinecone, LangChain | <ul><li>Pinecone: 8/10</li><li>LangChain: 9/10</li></ul> |
-| **Modularity** | N/A             | <ul><li>Modularized using modules</li></ul> |
-| **Testing**       | Jest, Enzyme     | <ul><li>Jest: 8/10</li><li>Enzyme: 9/10</li></ul> |
-| **Performance**   | Optimized for Web | <ul><li>Optimized using Webpack</li></ul> |
+| Feature           | Component               | Details                                                      |
+| :---------------- | :---------------------- | :----------------------------------------------------------- |
+| **Architecture**  | N/A                     | <ul><li>Monolithic</li></ul>                                 |
+| **Code Quality**  | ESLint, Prettier        | <ul><li>ESLint: 8/10</li><li>Prettier: 9/10</li></ul>        |
+| **Documentation** | README, API Docs        | <ul><li>README: 7/10</li><li>API Docs: 6/10</li></ul>        |
+| **Integrations**  | Pinecone, LangChain     | <ul><li>Pinecone: 8/10</li><li>LangChain: 9/10</li></ul>     |
+| **Modularity**    | N/A                     | <ul><li>Modularized using modules</li></ul>                  |
+| **Testing**       | Jest, Enzyme            | <ul><li>Jest: 8/10</li><li>Enzyme: 9/10</li></ul>            |
+| **Performance**   | Optimized for Web       | <ul><li>Optimized using Webpack</li></ul>                    |
 | **Security**      | HTTPS, Input Validation | <ul><li>HTTPS: 9/10</li><li>Input Validation: 8/10</li></ul> |
-| **Dependencies**  | Tailwind CSS, React | <ul><li>Tailwind CSS: 8/10</li><li>React: 9/10</li></ul> |
-| **Scalability**   | Load Balancing    | <ul><li>Load Balancing: 8/10</li></ul> |
+| **Dependencies**  | Tailwind CSS, React     | <ul><li>Tailwind CSS: 8/10</li><li>React: 9/10</li></ul>     |
+| **Scalability**   | Load Balancing          | <ul><li>Load Balancing: 8/10</li></ul>                       |
 
 Note:
 
-* The scores in the Code Quality, Testing, and Security sections are subjective and based on a scale of 1-10.
-* The Architecture section is not applicable as it's a monolithic architecture.
-* The README and API Docs sections have been scored based on their completeness and clarity.
-* The Integrations section highlights the project's use of Pinecone and LangChain, which are both popular libraries in the NLP space.
-* The Modularity section notes that the project uses modules to organize its codebase.
-* The Testing section mentions Jest and Enzyme as the testing frameworks used in the project.
-* The Performance section highlights the optimized nature of the project for web performance using Webpack.
-* The Security section emphasizes the use of HTTPS and input validation to ensure security.
+- The scores in the Code Quality, Testing, and Security sections are subjective and based on a scale of 1-10.
+- The Architecture section is not applicable as it's a monolithic architecture.
+- The README and API Docs sections have been scored based on their completeness and clarity.
+- The Integrations section highlights the project's use of Pinecone and LangChain, which are both popular libraries in the NLP space.
+- The Modularity section notes that the project uses modules to organize its codebase.
+- The Testing section mentions Jest and Enzyme as the testing frameworks used in the project.
+- The Performance section highlights the optimized nature of the project for web performance using Webpack.
+- The Security section emphasizes the use of HTTPS and input validation to ensure security.
 
 ---
 
@@ -253,44 +254,47 @@ Build chat-with-the-docs from the source and intsall dependencies:
 
 1. **Clone the repository:**
 
-    ```sh
-    ❯ git clone https://github.com/hasanalkaf3/chat-with-the-docs
-    ```
+   ```sh
+   ❯ git clone https://github.com/hasanalkaf3/chat-with-the-docs
+   ```
 
 2. **Navigate to the project directory:**
 
-    ```sh
-    ❯ cd chat-with-the-docs
-    ```
+   ```sh
+   ❯ cd chat-with-the-docs
+   ```
 
 3. **Install the dependencies:**
 
 <!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![npm][npm-shield]][npm-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [npm-shield]: https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white -->
-	<!-- [npm-link]: https://www.npmjs.com/ -->
 
-	**Using [npm](https://www.npmjs.com/):**
+    <!-- [![npm][npm-shield]][npm-link] -->
+    <!-- REFERENCE LINKS -->
+    <!-- [npm-shield]: https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white -->
+    <!-- [npm-link]: https://www.npmjs.com/ -->
 
-	```sh
-	❯ npm install
-	```
+    **Using [npm](https://www.npmjs.com/):**
+
+    ```sh
+    ❯ npm install
+    ```
 
 ### 🔆 Usage
 
 Run the project with:
 
 **Using [npm](https://www.npmjs.com/):**
+
 ```sh
 npm start
 ```
 
 ### 🌠 Testing
 
-Chat-with-the-docs uses the {__test_framework__} test framework. Run the test suite with:
+Chat-with-the-docs uses the {**test_framework**} test framework. Run the test suite with:
 
 **Using [npm](https://www.npmjs.com/):**
+
 ```sh
 npm test
 ```
@@ -299,7 +303,7 @@ npm test
 
 ## 🌻 Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [x] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
 - [ ] **`Task 3`**: Implement feature three.
 
@@ -364,8 +368,6 @@ Chat-with-the-docs is protected under the [LICENSE](https://choosealicense.com/l
 
 </div>
 
-
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
 
 ---
