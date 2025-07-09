@@ -1,9 +1,9 @@
 <div id="top">
 
-<!-- HEADER STYLE: COMPACT -->
-<img src="./public/ice.png" width="30%" align="left" style="margin-right: 15px; margin-top: 70px">
+<h1 align="center">CHAT-WITH-THE-DOCS</h1>
 
-# CHAT-WITH-THE-DOCS
+<!-- HEADER STYLE: COMPACT -->
+<img src="./public/ice.png" width="30%" align="left" style="margin-right: 15px">
 
 <em>Unlock Expertise, Amplify Insights</em>
 
