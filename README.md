@@ -1,7 +1,7 @@
 <div id="top">
 
 <!-- HEADER STYLE: COMPACT -->
-<img src="./public/ice.png" width="30%" align="left" style="margin-right: 15px">
+<img src="./public/ice.png" width="30%" align="left" style="margin-right: 15px; margin-top: 70px">
 
 # CHAT-WITH-THE-DOCS
 
