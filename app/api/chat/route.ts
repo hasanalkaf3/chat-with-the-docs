@@ -64,7 +64,7 @@ export async function POST(request: Request) {
 
     const formattedPrompt = await prompt.format({
       question,
-      context: docs.join('\n\n')
+      context: docs.join('\n\n\n')
     })
 
     console.log('Formatted prompt:', formattedPrompt)
