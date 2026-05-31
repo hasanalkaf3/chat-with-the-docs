@@ -59,20 +59,11 @@ This project provides a robust foundation for developers to build, deploy, and m
 
 ---
 
-## 🔥 Features
-
-| Feature           | Component               | Details                                                      |
-| :---------------- | :---------------------- | :----------------------------------------------------------- |
-| **Architecture**  | N/A                     | <ul><li>Monolithic</li></ul>                                 |
-| **Code Quality**  | ESLint, Prettier        | <ul><li>ESLint: 8/10</li><li>Prettier: 9/10</li></ul>        |
-| **Documentation** | README, API Docs        | <ul><li>README: 7/10</li><li>API Docs: 6/10</li></ul>        |
-| **Integrations**  | Pinecone, LangChain     | <ul><li>Pinecone: 8/10</li><li>LangChain: 9/10</li></ul>     |
-| **Modularity**    | N/A                     | <ul><li>Modularized using modules</li></ul>                  |
-| **Testing**       | Jest, Enzyme            | <ul><li>Jest: 8/10</li><li>Enzyme: 9/10</li></ul>            |
-| **Performance**   | Optimized for Web       | <ul><li>Optimized using Webpack</li></ul>                    |
-| **Security**      | HTTPS, Input Validation | <ul><li>HTTPS: 9/10</li><li>Input Validation: 8/10</li></ul> |
-| **Dependencies**  | Tailwind CSS, React     | <ul><li>Tailwind CSS: 8/10</li><li>React: 9/10</li></ul>     |
-| **Scalability**   | Load Balancing          | <ul><li>Load Balancing: 8/10</li></ul>                       |
+## 🚀 Key Features & Architecture
+- **Advanced Document Processing:** Support for multiple file formats (PDF, Markdown, TXT) with intelligent chunking strategies.
+- **Vector Embeddings & Storage:** Integration with high-performance vector databases for lightning-fast semantic search.
+- **Context-Aware Retrieval:** Optimized RAG pipelines to ensure minimal hallucination and precise prompt injection.
+- **Developer-Friendly & Modular:** Designed cleanly so developers can plug in their own LLM providers or embedding models easily.
 
 Note:
 
